@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Dio Industrial Platformer"
+config/description="Enter an interesting project description here!"
+run/main_scene="res://Scenes/World.tscn"
+config/features=PackedStringArray("4.2")
+config/icon="res://icon.png"
+
+[layer_names]
+
+2d_physics/layer_1="world"
+2d_physics/layer_2="player"
+2d_physics/layer_3="itens"
